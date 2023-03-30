@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
+    <title>Document</title>
+</head>
+<body> 
+    <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" href="#" class="close">×</a>
+        <ul>
+          <li><a href="#">Les derniers articles</a></li>
+          <li><a href="#">A écouter</a></li>
+          <li><a href="#">Interviews</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+      <a href="#" id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
+      
+
+<h1>  WHAT DA FUNK !  </h1>
+<h2>toutes les sorties funk en exclusivité </h2>
+<div class="container">
+    <div class="light"> 
+        <a href="dabeul.html" class="grid">
+            <img src="images/dabeull couverture.jpeg" width=700px alt="Dabeull">    
+            <p> Dabeull vous replonge dans les années 80 </p>
+        </a>
+    </div>
+    <div class="light"> 
+        <a href="stimulatorjones.html" class="grid"> 
+            <img src="images/stimulator jones.jpeg" width=700px alt="stimulator"> 
+            <p> Le groove satiné de Stimulator Jones </p>
+        </a>
+    </div>
+    <div class="light"> 
+    <a href="CoryHenry.html" class="grid">
+        <img src="images/cory henry.jpeg" width=700px alt="cory henry"> 
+        <p> Cory Henry fait trembler les basses funky </p>
+    </a>
+    </div>
+    <div class="light">
+    <a href="Monophonics.html" class="grid">
+        <img src="images/FP_MONOPHONICS-696x435-1.jpeg" width=700px alt="FP_MONOPHONICS-696x435-1">
+        <p> Monophonics ou la soul humaine</p>
+    </a>
+    </div>
+    <div class="light">
+    <a href="Tank and the Bungas.html" class="grid">
+        <img src="images/event_thumbnail_303.jpeg" width=700px height=500px alt="tank bungas"> 
+        <p> Tank and the Bangas, la révélation de La Nouvelle-Orléans qui va vous mettre de bonne humeur</p>
+    </a>
+    </div>
+</div>
+<div class="footer">
+Toutes les pépites du site ont été dénichées avec amour par une fan inconditionnelle de funk.
+</div>
+
+<script>
+    var sidenav = document.getElementById("mySidenav");
+    var openBtn = document.getElementById("openBtn");
+    var closeBtn = document.getElementById("closeBtn");
+
+    openBtn.onclick = openNav;
+    closeBtn.onclick = closeNav;
+
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+    sidenav.classList.add("active");
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+    sidenav.classList.remove("active");
+    }
+</script>
+</body>
+</html>

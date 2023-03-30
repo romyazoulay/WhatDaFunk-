@@ -1,0 +1,145 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+h1{
+    color: orangered ;
+    font-size: 120px;
+    font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    margin: 0;
+    margin-bottom: -20px;
+}
+
+.light{
+    transition: all 100ms ease;
+}
+.light:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: orangered;
+    font-size: 20px;
+    font-family: 'Road Rage', cursive;
+    margin: 0;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+img {
+    border-radius: 10px;
+    font-family: "Futura Regular",sans-serif,Arial;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+h4 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+h5{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-size: 30px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;  
+    text-decoration: none;
+    text-align: center;
+}
+ul {
+    font-family: 'Playfair Display', serif; 
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+  }
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #111;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  .footer {
+    width: 100vw;
+    padding: 50px 0;
+    background-color: orangered;
+    font-family: 'Playfair Display', serif; 
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Bebas Neue', cursive;  
+  }
+  
